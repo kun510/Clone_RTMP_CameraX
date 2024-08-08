@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login with username and password"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:id="@+id/titleTv"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="100dp"
+        android:hint="username"
+        android:id="@+id/usernameET"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/usernameET"
+        android:layout_marginHorizontal="50dp"
+        android:hint="password"
+        android:layout_marginTop="20dp"
+        android:id="@+id/passwordET"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        app:layout_constraintTop_toBottomOf="@id/passwordET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:text="Login"
+        android:id="@+id/loginBtn"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

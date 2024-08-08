@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225097361482",
+    "project_id": "rtmp-12643",
+    "storage_bucket": "rtmp-12643.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225097361482:android:ea7e13c6498dbb17eadeb3",
+        "android_client_info": {
+          "package_name": "com.codewithkael.rtmp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnwcEEVqi4iRg7s8A0rUo0RkwOskYas6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
